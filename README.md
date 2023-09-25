@@ -1,0 +1,4 @@
+# CPH 200A: Class Projects for Fall 2023
+
+This repository hosts the class projects for CPH 200A, a course offered at UC Berkeley and UCSF in Fall 2023. Project one focuses on developing machine learning based to predict lung cancer risk and evaluating the ability of these tools to improving lung cancer screening. A detailed readme and starter code in available in [project_one](project1/README.md). Project two focuses on developing deep learning tools to predict lung cancer from low dose CTs, with applications to both cancer detection and risk assessment. A detailed readme and starter code in available in [project_two](project2/README.md). Project three is an open ended project where students will have the opportunity to apply the skills they have learned to a new problem of their choosing. A detailed readme [project_three](project3/README.md).
+
