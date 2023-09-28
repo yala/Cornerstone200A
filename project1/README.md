@@ -27,7 +27,7 @@ You might the following unix tools useful: [tmux](https://github.com/tmux/tmux/w
 
 Starter project code is available in this github. You can clone this repository with the following command: 
 ```
- git clone git@github.com:yala/Cornerstone200A_Projects.git
+ git clone git@github.com:yala/Cornerstone200A.git
 ```
 
 To manage dependencies, we'll be using miniconda. You can load conda with the following command:
