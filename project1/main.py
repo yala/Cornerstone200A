@@ -12,7 +12,7 @@ import random
 def add_main_args(parser: argparse.ArgumentParser) -> argparse.ArgumentParser:
     parser.add_argument(
         "--plco_data_path",
-        default="/wynton/protected/group/yala/datasets/cornerstone/plco/Lung/Lung Person (image only)/lung_prsn.csv",
+        default="/wynton/protected/project/cph/cornerstone/plco/Lung/Lung Person (image only)/lung_prsn.csv",
         help="Location of PLCO csv",
     )
 
