@@ -13,7 +13,7 @@ For a refresher on how to access the CPH App nodes, setting up your development 
 As before, you can check your installation was succesful by running `python check_installation.py` from the project 2 directory. 
 
 The NLST dataset metadata is availale at:
-`/wynton/protected/group/yala/datasets/nlst-metadata/`
+`/wynton/protected/group/cph/cornerstone/nlst-metadata/`
 
 Preprocessed NLST scans (compatabile with the included data loaders) are included at:
 `/scratch/datasets/nlst/preprocessed/`
