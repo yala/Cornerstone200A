@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 The plco datasets, which include helpful data dictionaries and readmes, are availale at:
-`/wynton/protected/group/yala/cornerstone/project1/plco`
+`/wynton/protected/project/cph/cornerstone/plco`
 
 ### Optional: Submitting jobs to the larger Wynton cluster with SGE
 Additional GPUs are available to use as part of the larger Wynton cluster. You can submit jobs to this cluster using the Sun Grid Engine (SGE) scheduler. You can learn to use SGE (Sun Grid Engine) are available [here](https://wynton.ucsf.edu/hpc/scheduler/submit-jobs.html).
@@ -84,7 +84,7 @@ Complete the grid search dispatcher and use it to tune the hyperparameters of yo
 
 ### Building your best PLCO risk model (30 pts)
 
-Now that you have build a simple single feature classifier, you will extend your model to include additional features from the PLCO dataset. A data dictionary from the NCI is available at `/wynton/procted/group/yala/datasets/cornerstone/plco/TBD.pdf`.
+Now that you have build a simple single feature classifier, you will extend your model to include additional features from the PLCO dataset. A data dictionary from the NCI is available at `/wynton/protected/project/cph/cornerstone/plco/Lung/Lung Person (image only)/dictionary_lung_prsn-aug21-091521.pdf`.
 
 Note, this includes a wide range of questionare features including smoking history, family history, and other demographic information. Some of this data is numeric and some is categorical, and you will need to develop an efficient way to featurize this data. Moreover, you will also need to decide how to handle missing data, and how to deal with scale of various features (e.g. age vs. pack years). For this step, you will find some hints on a suggested `vectorizer` design in `vectorizer.py`. Note, you do not need to use all the features in the questionnare.
 
