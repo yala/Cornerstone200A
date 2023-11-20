@@ -1,7 +1,7 @@
 
 # Predicting Lung Cancer from Low-Dose CT Scans
 #### CPH 200A Project 2
-#### Due Date: 5PM PST Nov 16, 2023
+#### Due Date: 5PM PST Dec 7, 2023
 
 ## Introduction
 Building on the skills you developed in Project 1, in this project you will develop deep learning tools to perform lung cancer detection, localization and risk estimation using low-dose CT scans from the National Lung Screening Trial (NLST).The goal of this project is to give you hands-on experience developing state-of-the-art neural networks and to analyze the clinical opportunities they enable. At the end of this project, you will write a short project report, describing your model and your analyses.  Submit your **project code** and a **project report** by the due date, **5PM pst on Nov 16th, 2023**. 
@@ -48,12 +48,12 @@ In this exercise, develop classifiers to predict if a patient will be diagnosed 
 
 Develop a lung cancer binary classifer and explore the impact of pretraining and model architectures on model performance. In your project report, please include experiments with the following models:
 
-- A simple 3D CNN model (extending your toy experiment)
-- A ResNet-18 model (with and without ImageNet pretraining) (adapted to 3D CT scans)
+- A simple 3D CNN model (extending your toy experiment) (** optional due to Wynton downtime**)
+- A ResNet-18 model (with and without ImageNet pretraining) (adapted to 3D CT scans) (** optional due to Wynton downtime**)
 - ResNet-3D models (with and without video pretrainig)
-- (Optional) Swin-T models (with Video pretraining)
+- (Optional) Swin-T models (with Video pretraining) (** optional due to Wynton downtime**)
 
-In addition to these experiments, please also include an exploration of why pretraining helps model performance. To what extent is the performance boost driven by feature transfer as opposed a form of optimization preconditioning?  Please design experiments to address this question and include your results in your project report.
+In addition to these experiments, please also include an (** optional due to Wynton downtime**) exploration of why pretraining helps model performance. To what extent is the performance boost driven by feature transfer as opposed a form of optimization preconditioning?  Please design experiments to address this question and include your results in your project report.
 
 By the end of this part of the project, your validation 1-Year AUC should be at least 0.80. 
 
@@ -64,7 +64,7 @@ In your project report, please:
 - Introduce your method to incorporate localization information into your model
   -  Note, there are many valid options here!
 - Add metrics to quantify the quality of your localizations (e.g. IoU, or a likelihood metric)
-- Add vizualizations of your generated localizations against the  ground truth
+- Add vizualizations of your generated localizations against the  ground truth (** optional due to Wynton downtime**)
 
 By the end of this part of the project, your validation 1-Year AUC should be at least 0.87.
 
@@ -76,7 +76,7 @@ Now that you've developed a lung cancer detection model, it's time to analyze it
 
 In this part of the project, you will extend your cancer detection model to predict cancer risk and compare your results to your best model from project 1. 
 
-### Comparing to your best model from Project 1 (note not 100% overlapping questionares) (10pts)
+### Comparing to your best model from Project 1 (note not 100% overlapping questionares) (10pts) (** optional due to Wynton downtime**)
 Questionares from NLST are available in `src/dataset.py`. In your project report, please validate your PLCO model (from project 1) on the NLST dataset. Note, some of the information available in PLCO is not available in NLST, so you may need to simplify your project 1 model. Is there a meanigful performance difference between your PLCO model across the PLCO and NLST datasets? If so, why?
 
 ### Extend risk model to predict cancer risk (20pts)
@@ -85,8 +85,8 @@ In this exercise, you will extend your cancer detection model to predict cancer 
 In your project report, please include the following:
 - Your approach to extending your classifier to predict risk over time
 - Detailed performance evaluation of your risk model across multiple time horizons (e.g. 1,3 and 6 years)
-- Comparison of your imaging-based risk model against your PLCO model
-- An approach for combining your imaging-based risk model with the clinical information in your PLCO model
+- Comparison of your imaging-based risk model against your PLCO model (** optional due to Wynton downtime**)
+- An approach for combining your imaging-based risk model with the clinical information in your PLCO model (** optional due to Wynton downtime**)
   - Note, there are many valid options here!
   - Performance evaluation of this combined model across multiple time horizons.
 
